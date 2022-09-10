@@ -74,3 +74,160 @@ a {
 .info li h6 {
   margin-left: 10px;
 }
+
+.sliderImage > div {
+  justify-content: center;
+  background-size: cover;
+  height: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.sliderImage span {
+  font-size: 32px;
+  text-align: left;
+  color: #0d242c;
+  margin-left: 40px;
+}
+.sliderImage.captionButtons {
+  width: 200px;
+  display: flex;
+  /* gap: 20px; */
+}
+.sliderImage button {
+  padding: 20px;
+  background-color: #0d242c;
+  margin-left: 40px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.3s ease 0s;
+  border: 1px solid #102d3a;
+  border-radius: 5px;
+}
+.sliderImage button:hover {
+  color: goldenrod;
+}
+.ourService {
+  background-color: aliceblue;
+}
+.ourService h1 {
+  text-align: center;
+  color: #0d242c;
+  padding: 40px;
+}
+.service {
+  display: flex;
+  gap: 60px;
+  width: 300px;
+  margin-left: 90px;
+  padding-bottom: 60px;
+}
+.service img {
+  border-radius: 9px;
+  width: 250px;
+}
+.one {
+  padding: 10px;
+  /* border: 2px solid #102d3a; */
+  border-radius: 9px;
+}
+.one:hover {
+  background-image: linear-gradient(#ffffe0, #f1e5ac);
+  /* filter: grayscale(200%); */
+  /* transition: all 0.1s ease 0s; */
+  /* border: 1px solid #ffd700; */
+  padding: 10px;
+}
+.one h4 {
+  margin: 10px 0px;
+  color: #102d3a;
+}
+.one p {
+  text-align: left;
+  color: #102d3a;
+}
+.we-do {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #ffd700;
+  border-radius: 9px;
+  width: 400px;
+}
+.we-do:hover {
+  border: 3px solid #0d242c;
+}
+.we-do h3 {
+  width: 250px;
+  padding: 20px;
+  color: #102d3a;
+}
+.we-do p {
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  color: #102d3a;
+  word-spacing: 2px;
+}
+.we-do button {
+  background-color: aliceblue;
+  margin: 20px;
+  border-radius: 0.5rem;
+  color: #102d3a;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  text-decoration: none #d1d5db solid;
+  cursor: pointer;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  width: 150px;
+}
+.we-do button:hover {
+  background-color: #f7d960;
+}
+.experience {
+  background-color: #ebe9eb;
+  padding: 20px;
+}
+.experience h1 {
+  text-align: center;
+  color: #0d242c;
+  padding: 40px;
+}
+.experience-list {
+}
+.experience-list ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 30px;
+  color: #0d242c;
+  margin-top: 20px;
+}
+.experience-list ul li {
+  padding: 40px;
+  border: 3px solid #ffd700;
+  border-radius: 9px;
+}
+.clients {
+  padding: 40px;
+}
+.clients h1 {
+  text-align: center;
+  color: #0d242c;
+  padding: 40px;
+}
+.clients ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px 0px;
+}
+.client-image-style {
+  width: 120px;
+  border: 2px solid #ffd700;
+  filter: grayscale(200%);
+}
+.client-image-style:hover {
+}

@@ -35,28 +35,28 @@ function Navbar() {
         </div>
         <ul className='list'>
           <li>
-            <a href='#'>Home</a>
+            <a href='/#'>Home</a>
           </li>
           <li>
-            <a href='#'>About Us</a>
+            <a href='/#'>About Us</a>
           </li>
           <li>
-            <a href='#'>Experience</a>
+            <a href='/#'>Experience</a>
           </li>
           <li>
-            <a href='#'>Courses</a>
+            <a href='/#'>Courses</a>
           </li>
           <li>
-            <a href='#'>Service</a>
+            <a href='/#'>Service</a>
           </li>
           <li>
-            <a href='#'>Gallery</a>
+            <a href='/#'>Gallery</a>
           </li>
           <li>
-            <a href='#'>Blog</a>
+            <a href='/#'>Blog</a>
           </li>
           <li>
-            <a href='#'>Contact</a>
+            <a href='/#'>Contact</a>
           </li>
         </ul>
 
