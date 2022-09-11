@@ -2,9 +2,7 @@ import React from 'react';
 import data from './data';
 
 function Service() {
-  console.log(data);
   const ourServices = data.map((serv) => {
-    console.log(serv);
     return (
       <div className='one'>
         <img src={serv.image} alt='image' />

@@ -3,10 +3,10 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Main from './Components/Navbar/Main';
 import Service from './Components/Navbar/Service/Service';
-import data from './Components/Navbar/Service/data';
-// import { hexDataLength } from 'ethers/lib/utils';
 import Experience from './Components/Navbar/Experience/Experience';
 import Client from './Components/Navbar/Client/Client';
+import Course from './Components/Navbar/Courses/Course';
+import Footer from './Components/Navbar/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +16,8 @@ function App() {
       <Service />
       <Experience />
       <Client />
+      <Course />
+      <Footer />
     </>
   );
 }

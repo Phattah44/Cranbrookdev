@@ -104,9 +104,11 @@ a {
   transition: all 0.3s ease 0s;
   border: 1px solid #102d3a;
   border-radius: 5px;
+  cursor: pointer;
 }
 .sliderImage button:hover {
   color: goldenrod;
+  cursor: pointer;
 }
 .ourService {
   background-color: aliceblue;
@@ -120,8 +122,9 @@ a {
   display: flex;
   gap: 60px;
   width: 300px;
-  margin-left: 90px;
+  justify-content: left;
   padding-bottom: 60px;
+  margin-left: 90px;
 }
 .service img {
   border-radius: 9px;
@@ -130,12 +133,12 @@ a {
 .one {
   padding: 10px;
   /* border: 2px solid #102d3a; */
-  border-radius: 9px;
 }
 .one:hover {
   background-image: linear-gradient(#ffffe0, #f1e5ac);
+  border-radius: 9px;
   /* filter: grayscale(200%); */
-  /* transition: all 0.1s ease 0s; */
+  transition: all 0.1s ease 0s;
   /* border: 1px solid #ffd700; */
   padding: 10px;
 }
@@ -228,6 +231,88 @@ a {
   width: 120px;
   border: 2px solid #ffd700;
   filter: grayscale(200%);
+  border-radius: 5px;
 }
 .client-image-style:hover {
+  filter: none;
+  border-radius: 5px;
+}
+.course-segment {
+  background-color: aliceblue;
+}
+.course-segment h1 {
+  padding: 40px;
+  text-align: center;
+  color: #0d242c;
+}
+.courses {
+  display: flex;
+  gap: 60px;
+  width: 320px;
+  justify-content: left;
+  padding-bottom: 60px;
+  margin-left: 90px;
+}
+.courses img {
+  border-radius: 9px;
+  width: 250px;
+}
+.courses h4 {
+  margin: 10px 0px;
+  color: #102d3a;
+}
+.courses p {
+  color: #102d3a;
+  text-align: left;
+}
+.ourCourse {
+  padding: 10px;
+}
+.ourCourse:hover {
+  background-image: linear-gradient(#ffffe0, #f1e5ac);
+  border-radius: 9px;
+}
+.align-button {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.align-button button {
+  background-color: aliceblue;
+  margin: 20px;
+  border-radius: 0.5rem;
+  color: #102d3a;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  text-decoration: none #d1d5db solid;
+  cursor: pointer;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  width: 200px;
+}
+.align-button button:hover {
+  background-color: #f7d960;
+}
+
+.footer {
+  background-color: #102d3a;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: small;
+}
+.footer p {
+  color: rgb(214, 214, 214);
+  text-align: center;
+}
+.footer-socials li {
+  margin-right: 30px;
+  display: inline-block;
+  color: #fff;
+  font-size: large;
+}
+.footer-socials li a:hover {
+  color: goldenrod;
 }
