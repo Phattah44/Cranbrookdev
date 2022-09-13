@@ -63,7 +63,7 @@ function Navbar() {
         <ul className='social-icons'>
           <li>
             <a>
-              <FaFacebookSquare style={{ fontSize: '40px' }} size={5} />
+              <FaFacebookSquare />
             </a>
           </li>
 

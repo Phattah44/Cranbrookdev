@@ -316,3 +316,6 @@ a {
 .footer-socials li a:hover {
   color: goldenrod;
 }
+.increase {
+  size: 4px;
+}
